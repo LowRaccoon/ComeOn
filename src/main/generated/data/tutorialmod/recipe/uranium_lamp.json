@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "minecraft:redstone"
+    },
+    "R": {
+      "item": "tutorialmod:uranium_ingot"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RQR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:uranium_lamp"
+  }
+}

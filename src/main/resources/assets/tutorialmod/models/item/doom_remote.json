@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/doom_remote"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tutorialmod:activated": 1
+      },
+      "model": "tutorialmod:item/doom_remote_activated"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "tutorialmod:ancient_gem"
+    }
+  },
+  "pattern": [
+    "R",
+    "R",
+    "Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:ancient_sword"
+  }
+}

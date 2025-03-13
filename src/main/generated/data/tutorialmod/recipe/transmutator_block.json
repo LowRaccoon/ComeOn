@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "tutorialmod:gold_transmuter"
+    },
+    "R": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:transmutator_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/uranium_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/uranium_block"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/uranium_slab_top"
+    }
+  }
+}

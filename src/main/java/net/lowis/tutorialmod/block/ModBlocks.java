@@ -164,7 +164,7 @@ public class ModBlocks {
     public static final Block CHAIR = registerBlock("chair", new ChairBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.WOOD)));
     public static final Block PEDESTAL = registerBlock("pedestal", new PedestalBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.STONE)));
     public static final Block EATER = registerBlock("eater", new EaterBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.FROGLIGHT)));
-    public static final Block BEER_PINT = registerBlock("beer_pint", new BeerPintBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.WOOD)));
+    public static final Block BEER_PINT_BLOCK = registerBlock("beer_pint_block", new BeerPintBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.WOOD)));
 
 
 

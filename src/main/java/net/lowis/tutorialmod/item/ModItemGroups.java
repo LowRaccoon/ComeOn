@@ -109,6 +109,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHAIR);
                         entries.add(ModBlocks.PEDESTAL);
                         entries.add(ModBlocks.EATER);
+                        entries.add(ModBlocks.BEER_PINT_BLOCK);
 
                     }).build());
 

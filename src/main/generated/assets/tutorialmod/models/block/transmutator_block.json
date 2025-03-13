@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "tutorialmod:block/transmutator_block_bottom",
+    "side": "tutorialmod:block/transmutator_block_side",
+    "top": "tutorialmod:block/transmutator_block_top"
+  }
+}

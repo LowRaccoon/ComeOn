@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_transmuter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:gold_transmuter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:transmutator_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gold_transmuter"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:transmutator_block"
+    ]
+  }
+}

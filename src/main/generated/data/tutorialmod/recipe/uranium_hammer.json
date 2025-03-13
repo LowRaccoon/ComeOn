@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "tutorialmod:uranium_ingot"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RQR",
+    " Q "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:uranium_hammer"
+  }
+}

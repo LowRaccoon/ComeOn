@@ -1,0 +1,22 @@
+{
+  "values": [
+    "tutorialmod:gilded_glass",
+    "tutorialmod:pink_garnet_block",
+    "tutorialmod:raw_pink_garnet_block",
+    "tutorialmod:pink_garnet_end_ore",
+    "tutorialmod:pink_garnet_nether_ore",
+    "tutorialmod:pink_garnet_ore",
+    "tutorialmod:pink_garnet_deepslate_ore",
+    "tutorialmod:uranium_block",
+    "tutorialmod:uranium_lamp",
+    "tutorialmod:uranium_stairs",
+    "tutorialmod:uranium_slab",
+    "tutorialmod:uranium_button",
+    "tutorialmod:uranium_pressure_plate",
+    "tutorialmod:uranium_fence",
+    "tutorialmod:uranium_fence_gate",
+    "tutorialmod:uranium_wall",
+    "tutorialmod:uranium_door",
+    "tutorialmod:uranium_trapdoor"
+  ]
+}

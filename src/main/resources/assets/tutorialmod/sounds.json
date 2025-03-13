@@ -1,0 +1,46 @@
+{
+  "transmutator_use": {
+    "subtitle": "sounds.transmutator_use",
+    "sounds": [
+      "tutorialmod:transmutator_use"
+    ]
+  },
+  "transmutator_block_break": {
+    "subtitle": "sounds.transmutator_block_break",
+    "sounds": [
+      "tutorialmod:transmutator_block_break"
+    ]
+  },
+  "transmutator_block_fall": {
+    "subtitle": "sounds.transmutator_block_fall",
+    "sounds": [
+      "tutorialmod:transmutator_block_fall"
+    ]
+  },
+  "transmutator_block_hit": {
+    "subtitle": "sounds.transmutator_block_hit",
+    "sounds": [
+      "tutorialmod:transmutator_block_hit"
+    ]
+  },
+  "transmutator_block_place": {
+    "subtitle": "sounds.transmutator_block_place",
+    "sounds": [
+      "tutorialmod:transmutator_block_place"
+    ]
+  },
+  "transmutator_block_step": {
+    "subtitle": "sounds.transmutator_block_step",
+    "sounds": [
+      "tutorialmod:transmutator_block_step"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "tutorialmod:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

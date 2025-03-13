@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicekd=false": {
+      "model": "tutorialmod:block/green_lamp"
+    },
+    "clicekd=true": {
+      "model": "tutorialmod:block/green_lamp_on"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "item.tutorialmod.pink_garnet": "Pink Garnet",
+  "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorialmod.banana": "Banana",
+  "item.tutorialmod.wine": "Wine",
+  "item.tutorialmod.beer_pint": "Beer Pint",
+  "item.tutorialmod.glass_shard": "Glass Shard",
+  "item.tutorialmod.gold_transmuter": "Gold Transmuter",
+  "item.tutorialmod.star_remains": "Star Remains",
+  "item.tutorialmod.uranium_ingot": "Uranium Ingot",
+  "item.tutorialmod.jagermeister": "Jagermeister",
+  "item.tutorialmod.baguette": "Baguette",
+  "item.tutorialmod.button_off": "Button",
+  "item.tutorialmod.doom_remote": "Doom Remote",
+  "item.tutorialmod.button": "Button",
+  "item.tutorialmod.doritos": "Doritos",
+  "item.tutorialmod.doritos_pack": "Doritos Pack",
+  "item.tutorialmod.glass_bottle": "Glass Bottle",
+  "item.tutorialmod.broken_glass_bottle": "Broken Glass Bottle",
+  "item.tutorialmod.cauliflower": "Cauliflower",
+  "item.tutorialmod.mod_music_disk": "Mod Music Disk",
+  "item.tutorialmod.mod_music_disk.desc": "Bryan Tech - Bar Brawl (CC0)",
+  "item.tutorialmod.bone_needle": "Bone Needle",
+  "item.tutorialmod.killer": "Killer",
+  "item.tutorialmod.demon_eye": "Demon Eye",
+  "item.tutorialmod.grenade": "Grenade",
+  "item.tutorialmod.giant_seed": "Giant Seed",
+
+  "item.tutorialmod.specter": "Specter Staff",
+
+  "item.tutorialmod.cauliflower_seeds": "Cauliflower Seeds",
+  "item.tutorialmod.honey_berries": "Honey Berries",
+
+  "item.tutorialmod.uranium_sword": "Uranium Sword",
+  "item.tutorialmod.uranium_pickaxe": "Uranium Pickaxe",
+  "item.tutorialmod.uranium_shovel": "Uranium Shovel",
+  "item.tutorialmod.uranium_axe": "Uranium Axe",
+  "item.tutorialmod.uranium_hoe": "Uranium Hoe",
+  "item.tutorialmod.uranium_hammer": "Uranium Hammer",
+
+  "item.tutorialmod.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.tutorialmod.pink_garnet_chestplate": "Pink Garnet Chestplate",
+  "item.tutorialmod.pink_garnet_leggings": "Pink Garnet Leggings",
+  "item.tutorialmod.pink_garnet_boots": "Pink Garnet Boots",
+  "item.tutorialmod.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+
+  "item.tutorialmod.custom_bow": "Custom Bow",
+
+  "item.tutorialmod.spectre_staff": "Spectre Staff",
+
+
+  "item.tutorialmod.ancient_gem": "Ancient Gem",
+  "item.tutorialmod.ancient_sword": "Ancient Sword",
+  "item.tutorialmod.ancient_pickaxe": "Ancient Pickaxe",
+  "item.tutorialmod.ancient_shovel": "Ancient Shovel",
+  "item.tutorialmod.ancient_axe": "Ancient Axe",
+  "item.tutorialmod.ancient_hoe": "Ancient Hoe",
+  "item.tutorialmod.ancient_scythe": "Ancient Scythe",
+
+  "item.tutorialmod.mantis_spawn_egg": "Mantis Spawn Egg",
+  "item.tutorialmod.gobozo_spawn_egg": "Gobozo Spawn Egg",
+
+  "item.tutorialmod.tomahawk": "Tomahawk",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+  "item.minecraft.potion.effect.fullness_potion": "Fullness Potion",
+  "item.minecraft.splash_potion.effect.fullness_potion": "Fullness Splash Potion",
+  "item.minecraft.lingering_potion.effect.fullness_potion": "Fullness Lingering Potion",
+
+
+  "effect.tutorialmod.slimey": "Slimey",
+  "effect.tutorialmod.fullness": "Fullness",
+
+
+  "painting.tutorialmod.world.title": "World",
+  "painting.tutorialmod.world.author": "NanoAttack",
+  "painting.tutorialmod.shrimp.title": "Shrimp",
+  "painting.tutorialmod.shrimp.author": "NanoAttack",
+  "painting.tutorialmod.saw_them.title": "Saw Them",
+  "painting.tutorialmod.saw_them.author": "NanoAttack",
+
+
+  "block.tutorialmod.pink_garnet_block": "Pink Garnet Block",
+  "block.tutorialmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tutorialmod.pink_garnet_nether_ore": "Pink Garnet Nether Ore",
+  "block.tutorialmod.pink_garnet_end_ore": "Pink Garnet End Ore",
+  "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "block.tutorialmod.crate": "Crate",
+  "block.tutorialmod.gilded_glass": "Gilded Glass",
+  "block.tutorialmod.transmutator_block": "Transmutator Block",
+
+  "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
+  "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
+
+  "block.tutorialmod.uranium_block": "Uranium Block",
+  "block.tutorialmod.uranium_stairs": "Uranium Stairs",
+  "block.tutorialmod.uranium_slab": "Uranium Slab",
+  "block.tutorialmod.uranium_button": "Uranium Button",
+  "block.tutorialmod.uranium_pressure_plate": "Uranium Pressure Plate",
+  "block.tutorialmod.uranium_fence": "Uranium Fence",
+  "block.tutorialmod.uranium_fence_gate": "Uranium Fence Gate",
+  "block.tutorialmod.uranium_wall": "Uranium Wall",
+  "block.tutorialmod.uranium_door": "Uranium Door",
+  "block.tutorialmod.uranium_trapdoor": "Uranium Trapdoor",
+  "block.tutorialmod.uranium_lamp": "Uranium Lamp",
+  "block.tutorialmod.green_lamp": "Green Lamp",
+
+  "block.tutorialmod.driftwood_log": "Driftwood Log",
+  "block.tutorialmod.driftwood_wood": "Driftwood Wood",
+  "block.tutorialmod.stripped_driftwood_log": "Stripped Driftwood Log",
+  "block.tutorialmod.stripped_driftwood_wood": "Stripped Driftwood Wood",
+  "block.tutorialmod.driftwood_planks": "Driftwood Planks",
+  "block.tutorialmod.driftwood_leaves": "Driftwood Leaves",
+  "block.tutorialmod.driftwood_sapling": "Driftwood Sapling",
+
+  "block.tutorialmod.chair": "Chair",
+  "block.tutorialmod.pedestal": "Pedestal",
+  "block.tutorialmod.eater": "Eater",
+  "block.tutorialmod.beer_pint": "Beer Pint",
+
+
+  "itemgroup.tutorialmod.tutorial_mod": "Tutorial Mod Items",
+
+
+  "enchantment.tutorialmod.lightning_striker": "Lightning Striker",
+  "enchantment.tutorialmod.explode": "Explode",
+
+  "entity.tutorialmod.mantis": "Mantis",
+  "entity.tutorialmod.tomahawk": "Tomahawk",
+  "entity.tutorialmod.grenade": "Grenade",
+  "entity.tutorialmod.gobozo": "Gobozo",
+  "entity.tutorialmod.giant_seed": "Giant Seed",
+
+
+
+  "tooltip.tutorialmod.gold_transmuter": "press §9Shift§r for info",
+  "tooltip.tutorialmod.gold_transmuter.shift_down": "Transmutes coal into gold!"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "minecraft:gunpowder"
+    },
+    "R": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RQR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:grenade"
+  }
+}
