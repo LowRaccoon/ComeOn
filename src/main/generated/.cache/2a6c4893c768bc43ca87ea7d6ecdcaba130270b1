@@ -1,4 +1,4 @@
-// 1.21	2025-03-13T22:51:47.437151	TutorialMod/Block Loot Tables
+// 1.21	2025-03-13T22:55:50.1643122	TutorialMod/Block Loot Tables
 81e1cfbc4d86d3fd0189a0c8ea6ecf867f65d766 data\tutorialmod\loot_table\blocks\pink_garnet_ore.json
 558852eafdbe144a31ae2dfcd41346600f2532e7 data\tutorialmod\loot_table\blocks\stripped_driftwood_wood.json
 2ff59f6f3052681e1c2d3abce365a01588a5fc34 data\tutorialmod\loot_table\blocks\driftwood_wood.json
@@ -15,8 +15,8 @@ f735fc0008699363f44cad05a3959d989abf7b2e data\tutorialmod\loot_table\blocks\uran
 28c0813854c337d235a227942a8cd73a3d3cadad data\tutorialmod\loot_table\blocks\uranium_lamp.json
 b711f0e282f5a9092528529ccf4af8999c209a52 data\tutorialmod\loot_table\blocks\driftwood_log.json
 58a241a531737adcfd3f142c19c046fc895f84dc data\tutorialmod\loot_table\blocks\stripped_driftwood_log.json
-1f75bdde6889f07c31bb049ca43ba218ed30155b data\tutorialmod\loot_table\blocks\uranium_door.json
 f40ffe04abee684dbf45e9dbecffc8535b0237ac data\tutorialmod\loot_table\blocks\honey_berry_bush.json
+1f75bdde6889f07c31bb049ca43ba218ed30155b data\tutorialmod\loot_table\blocks\uranium_door.json
 72d3c529b0328c8b63a6881acc7dbb64998876ff data\tutorialmod\loot_table\blocks\uranium_fence_gate.json
 3e3ddd98643ebe9aa78b3bb5ff11e901bcf365a9 data\tutorialmod\loot_table\blocks\pink_garnet_end_ore.json
 c524d99e89d1a6b91131c503e69d1343642df802 data\tutorialmod\loot_table\blocks\raw_pink_garnet_block.json

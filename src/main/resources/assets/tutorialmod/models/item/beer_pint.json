@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/beer_pint_block"
+    "layer0": "tutorialmod:item/beer_pint"
   }
 }
