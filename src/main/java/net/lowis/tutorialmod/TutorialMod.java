@@ -20,6 +20,7 @@ import net.lowis.tutorialmod.item.ModItemGroups;
 import net.lowis.tutorialmod.item.ModItems;
 import net.lowis.tutorialmod.particle.ModParticles;
 import net.lowis.tutorialmod.potion.ModPotions;
+import net.lowis.tutorialmod.screen.ModScreenHandlers;
 import net.lowis.tutorialmod.sound.ModSounds;
 import net.lowis.tutorialmod.util.HammerUsageEvent;
 import net.lowis.tutorialmod.util.ModLootTableModifiers;
@@ -57,6 +58,7 @@ public class TutorialMod implements ModInitializer {
 		ModEntities.registerModEntities();
 		ModLootTableModifiers.modifyLootTables();
 		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.MANTIS, MantisEntity.createAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.GOBOZO, GobozoEntity.createAttributes());

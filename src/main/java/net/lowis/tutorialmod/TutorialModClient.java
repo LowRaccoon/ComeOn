@@ -12,7 +12,10 @@ import net.lowis.tutorialmod.entity.ModEntities;
 import net.lowis.tutorialmod.entity.client.*;
 import net.lowis.tutorialmod.particle.MagicCircleParticle;
 import net.lowis.tutorialmod.particle.ModParticles;
+import net.lowis.tutorialmod.screen.ModScreenHandlers;
+import net.lowis.tutorialmod.screen.custom.PedestalScreen;
 import net.lowis.tutorialmod.util.ModModelPredicates;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 
@@ -45,6 +48,8 @@ public class TutorialModClient implements ClientModInitializer {
         ParticleFactoryRegistry.getInstance().register(ModParticles.MAGIC_CIRCLE_PARTICLE, MagicCircleParticle.Factory::new);
 
         BlockEntityRendererFactories.register(ModBlockEntities.PEDESTAL_BE, PedestalBlockEntityRenderer::new);
+
+        HandledScreens.register(ModScreenHandlers.PEDESTAL_SCREEN_HANDLER, PedestalScreen::new);
 
     }
 }
