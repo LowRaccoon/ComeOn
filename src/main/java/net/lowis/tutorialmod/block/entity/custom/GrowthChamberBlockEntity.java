@@ -34,7 +34,7 @@ public class GrowthChamberBlockEntity extends BlockEntity implements ExtendedScr
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
-    private int maxProgress = 72;
+    private int maxProgress = 200;
 
     public GrowthChamberBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.GROWTH_CHAMBER_BE, pos, state);
@@ -102,11 +102,11 @@ public class GrowthChamberBlockEntity extends BlockEntity implements ExtendedScr
 
     private void resetProgress() {
         this.progress = 0;
-        this.maxProgress = 72;
+        //this.maxProgress = 200;
     }
 
     private void craftItem() {
-        ItemStack output = new ItemStack(ModItems.PINK_GARNET, 6);
+        ItemStack output = new ItemStack(ModItems.PINK_GARNET, 1);
 
         this.removeStack(INPUT_SLOT, 1);
         this.setStack(OUTPUT_SLOT, new ItemStack(output.getItem(),
