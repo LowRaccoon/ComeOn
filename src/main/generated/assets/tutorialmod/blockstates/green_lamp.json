@@ -1,9 +1,9 @@
 {
   "variants": {
-    "clicekd=false": {
+    "clicked=false": {
       "model": "tutorialmod:block/green_lamp"
     },
-    "clicekd=true": {
+    "clicked=true": {
       "model": "tutorialmod:block/green_lamp_on"
     }
   }

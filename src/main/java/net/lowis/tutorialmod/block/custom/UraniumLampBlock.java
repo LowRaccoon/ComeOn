@@ -6,6 +6,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
@@ -15,7 +16,9 @@ import net.minecraft.world.World;
 
 public class UraniumLampBlock extends Block {
 
-    public static final BooleanProperty CLICKED = BooleanProperty.of("clicekd");
+    public static final BooleanProperty CLICKED = BooleanProperty.of("clicked");
+
+
 
 
     public UraniumLampBlock(Settings settings) {
