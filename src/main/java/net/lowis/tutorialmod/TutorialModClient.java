@@ -13,6 +13,7 @@ import net.lowis.tutorialmod.entity.client.*;
 import net.lowis.tutorialmod.particle.MagicCircleParticle;
 import net.lowis.tutorialmod.particle.ModParticles;
 import net.lowis.tutorialmod.screen.ModScreenHandlers;
+import net.lowis.tutorialmod.screen.custom.GrowthChamberScreen;
 import net.lowis.tutorialmod.screen.custom.PedestalScreen;
 import net.lowis.tutorialmod.util.ModModelPredicates;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
@@ -51,5 +52,6 @@ public class TutorialModClient implements ClientModInitializer {
 
         HandledScreens.register(ModScreenHandlers.PEDESTAL_SCREEN_HANDLER, PedestalScreen::new);
 
+        HandledScreens.register(ModScreenHandlers.GROWTH_CHAMBER_SCREEN_HANDLER, GrowthChamberScreen::new);
     }
 }

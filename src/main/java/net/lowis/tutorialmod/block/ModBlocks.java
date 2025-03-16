@@ -15,6 +15,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
+
 public class ModBlocks {
 
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
@@ -165,6 +166,7 @@ public class ModBlocks {
     public static final Block PEDESTAL = registerBlock("pedestal", new PedestalBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.STONE)));
     public static final Block EATER = registerBlock("eater", new EaterBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.FROGLIGHT)));
     public static final Block BEER_PINT_BLOCK = registerBlock("beer_pint_block", new BeerPintBlock(AbstractBlock.Settings.create().nonOpaque().sounds(BlockSoundGroup.WOOD)));
+    public static final Block GROWTH_CAMBER = registerBlock("growth_chamber", new GrowthChamberBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
 
 
 

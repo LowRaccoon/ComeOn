@@ -69,6 +69,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEER_PINT_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GROWTH_CAMBER);
+
+
     }
 
     @Override
