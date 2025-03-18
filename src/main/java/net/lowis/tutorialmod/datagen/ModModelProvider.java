@@ -112,13 +112,19 @@ public class ModModelProvider extends FabricModelProvider {
         //itemModelGenerator.register(ModItems.BEER_PINT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLASS_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLD_TRANSMUTER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.STAR_REMAINS, Models.GENERATED);
         itemModelGenerator.register(ModItems.BAGUETTE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BUTTON, Models.GENERATED);
         itemModelGenerator.register(ModItems.DORITOS, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLASS_BOTTLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BROKEN_GLASS_BOTTLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOD_MUSIC_DISK, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.STAR_REMAINS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FROSTFIRE_ICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AURORA_ASHES, Models.GENERATED);
+
+
+
 
         itemModelGenerator.register(ModItems.ANCIENT_GEM, Models.GENERATED);
 

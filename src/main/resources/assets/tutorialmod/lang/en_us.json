@@ -5,6 +5,7 @@
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
   "item.tutorialmod.bismuth": "Bismuth",
   "item.tutorialmod.raw_bismuth": "Raw Bismuth",
+  "item.tutorialmod.uranium_ingot": "Uranium Ingot",
 
 
 
@@ -15,7 +16,6 @@
   "item.tutorialmod.glass_shard": "Glass Shard",
   "item.tutorialmod.gold_transmuter": "Gold Transmuter",
   "item.tutorialmod.star_remains": "Star Remains",
-  "item.tutorialmod.uranium_ingot": "Uranium Ingot",
   "item.tutorialmod.jagermeister": "Jagermeister",
   "item.tutorialmod.baguette": "Baguette",
   "item.tutorialmod.button_off": "Button",
@@ -149,7 +149,8 @@
   "block.tutorialmod.growth_chamber": "Growth Chamber",
 
 
-  "itemgroup.tutorialmod.tutorial_mod": "Tutorial Mod Items",
+  "itemgroup.tutorialmod.tutorial_mod_items": "Tutorial Mod Items",
+  "itemgroup.tutorialmod.tutorial_mod_blocks": "Tutorial Mod Blocks",
 
 
   "enchantment.tutorialmod.lightning_striker": "Lightning Striker",

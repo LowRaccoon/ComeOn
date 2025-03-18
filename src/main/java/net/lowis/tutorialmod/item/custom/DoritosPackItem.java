@@ -4,6 +4,7 @@ import net.lowis.tutorialmod.item.ModItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
@@ -28,7 +29,7 @@ public class DoritosPackItem extends Item {
 
 
 
-        return super.use(world, user, hand);
+        return TypedActionResult.success(user.getStackInHand(hand));
     }
 
 

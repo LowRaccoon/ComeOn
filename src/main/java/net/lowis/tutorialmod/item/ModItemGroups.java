@@ -12,10 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup TUTORIAL_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(TutorialMod.MOD_ID, "tutorial_mod"),
+    public static final ItemGroup TUTORIAL_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(TutorialMod.MOD_ID, "tutorial_mod_items"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItems.BEER_PINT))
-                    .displayName(Text.translatable("itemgroup.tutorialmod.tutorial_mod"))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.tutorial_mod_items"))
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModItems.PINK_GARNET);
@@ -35,7 +35,6 @@ public class ModItemGroups {
                         entries.add(ModItems.BEER_PINT);
                         entries.add(ModItems.GLASS_SHARD);
                         entries.add(ModItems.GOLD_TRANSMUTER);
-                        entries.add(ModItems.STAR_REMAINS);
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.BUTTON);
                         entries.add(ModItems.DOOM_REMOTE);
@@ -48,6 +47,10 @@ public class ModItemGroups {
                         entries.add(ModItems.GRENADE);
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
                         entries.add(ModItems.HONEY_BERRIES);
+
+                        entries.add(ModItems.STAR_REMAINS);
+                        entries.add(ModItems.FROSTFIRE_ICE);
+                        entries.add(ModItems.AURORA_ASHES);
 
                         entries.add(ModItems.URANIUM_SWORD);
                         entries.add(ModItems.URANIUM_PICKAXE);
@@ -79,8 +82,13 @@ public class ModItemGroups {
                         entries.add(ModItems.ANCIENT_SHOVEL);
                         entries.add(ModItems.ANCIENT_HOE);
                         //entries.add(ModItems.ANCIENT_SCYTHE);
+                    }).build());
 
-
+    public static final ItemGroup TUTORIAL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(TutorialMod.MOD_ID, "tutorial_mod_blocks"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.TRANSMUTATOR_BLOCK))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.tutorial_mod_blocks"))
+                    .entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
@@ -141,21 +149,10 @@ public class ModItemGroups {
 
 
     public static void registerItemGroups() {
+        TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
     }
 
 }
-
-
-
-
-
-
-
-
-// textures and json's for the BOW when you get back from dinner!!!!
-
-
-
 
 
 

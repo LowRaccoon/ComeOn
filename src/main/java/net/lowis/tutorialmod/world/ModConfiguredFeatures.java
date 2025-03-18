@@ -28,6 +28,11 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_PINK_GARNET_ORE_KEY = registerKey("nether_pink_garnet_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> END_PINK_GARNET_ORE_KEY = registerKey("end_pink_garnet_ore");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BISMUTH_ORE_KEY = registerKey("bismut_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> NETHER_BISMUTH_ORE_KEY = registerKey("nether_bismuth_ore");
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ALEXANDRITE_ORE_KEY = registerKey("alexandrite_ore");
+
     public static final RegistryKey<ConfiguredFeature<?, ?>> DRIFTWOOD_KEY = registerKey("driftwood");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
@@ -39,14 +44,34 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> overworldPinkGarnetOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.PINK_GARNET_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.PINK_GARNET_DEEPSLATE_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> overworldAlexandriteOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.ALEXANDRITE_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> overworldBismuthOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.BISMUTH_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.BISMUTH_DEEPSLATE_ORE.getDefaultState()));
+
+
         List<OreFeatureConfig.Target> netherPinkGarnetOres =
                 List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.PINK_GARNET_NETHER_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> netherBismuthOres =
+                List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.BISMUTH_NETHER_ORE.getDefaultState()));
+
+
         List<OreFeatureConfig.Target> endPinkGarnetOres =
                 List.of(OreFeatureConfig.createTarget(endReplaceables, ModBlocks.PINK_GARNET_END_ORE.getDefaultState()));
 
         register(context, PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPinkGarnetOres, 12));
         register(context, NETHER_PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherPinkGarnetOres, 9));
         register(context, END_PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(endPinkGarnetOres, 9));
+
+        register(context, ALEXANDRITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAlexandriteOres, 12));
+
+        register(context, BISMUTH_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldBismuthOres, 12));
+        register(context, NETHER_BISMUTH_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherBismuthOres, 9));
 
         register(context, DRIFTWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.DRIFTWOOD_LOG),
@@ -69,3 +94,12 @@ public class ModConfiguredFeatures {
     }
 
 }
+
+
+
+
+
+
+
+
+

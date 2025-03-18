@@ -69,6 +69,8 @@ public class ModItems {
 
 
     public static final Item STAR_REMAINS = registerItem("star_remains", new Item(new Item.Settings().rarity(Rarity.RARE)));
+    public static final Item FROSTFIRE_ICE = registerItem("frostfire_ice", new Item(new Item.Settings().rarity(Rarity.RARE)));
+    public static final Item AURORA_ASHES = registerItem("aurora_ashes", new Item(new Item.Settings().rarity(Rarity.RARE)));
 
 
 
