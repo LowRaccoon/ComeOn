@@ -25,13 +25,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter recipeExporter) {
         List<ItemConvertible> PINK_GARNET_SMELTABLES = List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE, ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+        List<ItemConvertible> ALEXANDRITE_SMELTABLES = List.of(ModItems.RAW_ALEXANDRITE, ModBlocks.ALEXANDRITE_ORE, ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+        List<ItemConvertible> BISMUTH_SMELTABLES = List.of(ModItems.RAW_BISMUTH, ModBlocks.BISMUTH_ORE, ModBlocks.BISMUTH_DEEPSLATE_ORE);
 
         offerSmelting(recipeExporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 200, "pink_garnet");
-        offerBlasting(recipeExporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 0.25f, 100, "pink_garnet"); //TODO smelting
+        offerBlasting(recipeExporter, ALEXANDRITE_SMELTABLES, RecipeCategory.MISC, ModItems.ALEXANDRITE, 0.25f, 100, "alexandrite");
+        offerBlasting(recipeExporter, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH, 0.25f, 100, "bismuth");
 
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.PINK_GARNET_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ALEXANDRITE, RecipeCategory.DECORATIONS, ModBlocks.ALEXANDRITE_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BISMUTH, RecipeCategory.DECORATIONS, ModBlocks.BISMUTH_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.URANIUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.URANIUM_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_PINK_GARNET_BLOCK) //TODO recipes
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.RAW_PINK_GARNET_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_ALEXANDRITE, RecipeCategory.DECORATIONS, ModBlocks.RAW_ALEXANDRITE_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_BISMUTH, RecipeCategory.DECORATIONS, ModBlocks.RAW_BISMUTH_BLOCK);
+
+        /*ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
@@ -42,7 +52,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
                 .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.RAW_PINK_GARNET_BLOCK))
-                .offerTo(recipeExporter);
+                .offerTo(recipeExporter);*/
+
+
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.GOLD_INGOT)
                 .input(ModItems.GOLD_TRANSMUTER)
@@ -55,8 +67,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.CHARCOAL)
                 .criterion(hasItem(ModItems.GOLD_TRANSMUTER), conditionsFromItem(ModItems.GOLD_TRANSMUTER))
                 .offerTo(recipeExporter, "gold_ingot_from_transmuted_charcoal");
-
-        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.URANIUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.URANIUM_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TRANSMUTATOR_BLOCK)
                 .pattern("QQQ")
@@ -89,10 +99,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('Q', Items.REDSTONE)
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .offerTo(recipeExporter);
-
-
-
-
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_PICKAXE)
                 .pattern("RRR")

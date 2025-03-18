@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_pink_garnet_block": {
+    "has_raw_alexandrite": {
       "conditions": {
         "items": [
           {
-            "items": "tutorialmod:raw_pink_garnet_block"
+            "items": "tutorialmod:raw_alexandrite"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tutorialmod:raw_pink_garnet"
+        "recipe": "minecraft:alexandrite_from_blasting_raw_alexandrite"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_pink_garnet_block"
+      "has_raw_alexandrite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tutorialmod:raw_pink_garnet"
+      "minecraft:alexandrite_from_blasting_raw_alexandrite"
     ]
   }
 }

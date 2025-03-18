@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "tutorialmod:raw_pink_garnet_block"
+      "item": "tutorialmod:raw_alexandrite_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "tutorialmod:raw_pink_garnet"
+    "id": "tutorialmod:raw_alexandrite"
   }
 }

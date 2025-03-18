@@ -3,11 +3,11 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.25,
-  "group": "pink_garnet",
+  "group": "bismuth",
   "ingredient": {
-    "item": "tutorialmod:pink_garnet_ore"
+    "item": "tutorialmod:raw_bismuth"
   },
   "result": {
-    "id": "tutorialmod:pink_garnet"
+    "id": "tutorialmod:bismuth"
   }
 }
