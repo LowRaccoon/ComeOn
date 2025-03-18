@@ -18,6 +18,17 @@ public class ModItems {
 
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+
+    public static final Item ALEXANDRITE = registerItem("alexandrite", new Item(new Item.Settings()));
+    public static final Item RAW_ALEXANDRITE = registerItem("raw_alexandrite", new Item(new Item.Settings()));
+
+    public static final Item BISMUTH = registerItem("bismuth", new Item(new Item.Settings()));
+    public static final Item RAW_BISMUTH = registerItem("raw_bismuth", new Item(new Item.Settings()));
+
+    public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new Item.Settings()));
+
+
+
     public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponent.BANANA).rarity(Rarity.EPIC)));
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponent.CAULIFLOWER)));
     public static final Item DORITOS = registerItem("doritos", new Item(new Item.Settings().food(ModFoodComponent.DORITOS).rarity(Rarity.RARE)));
@@ -58,7 +69,7 @@ public class ModItems {
 
 
     public static final Item STAR_REMAINS = registerItem("star_remains", new Item(new Item.Settings().rarity(Rarity.RARE)));
-    public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new Item.Settings()));
+
 
 
     public static final Item PINK_GARNET_HELMET = registerItem("pink_garnet_helmet", new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.HELMET,

@@ -25,10 +25,28 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GILDED_GLASS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRATE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_NETHER_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_END_ORE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_NETHER_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALEXANDRITE_END_ORE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BISMUTH_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_NETHER_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BISMUTH_END_ORE);
+
+
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GILDED_GLASS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRATE);
         blockStateModelGenerator.registerSingleton(ModBlocks.TRANSMUTATOR_BLOCK, TexturedModel.CUBE_BOTTOM_TOP);
 
 
@@ -78,6 +96,15 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ALEXANDRITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ALEXANDRITE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BISMUTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_BISMUTH, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.URANIUM_INGOT, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.BANANA, Models.GENERATED);
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
         itemModelGenerator.register(ModItems.WINE, Models.GENERATED);
@@ -86,7 +113,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLASS_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.GOLD_TRANSMUTER, Models.GENERATED);
         itemModelGenerator.register(ModItems.STAR_REMAINS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.URANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BAGUETTE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BUTTON, Models.GENERATED);
         itemModelGenerator.register(ModItems.DORITOS, Models.GENERATED);

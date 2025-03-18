@@ -19,13 +19,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.GILDED_GLASS)
                 .add(ModBlocks.PINK_GARNET_BLOCK)
                 .add(ModBlocks.RAW_PINK_GARNET_BLOCK)
                 .add(ModBlocks.PINK_GARNET_END_ORE)
                 .add(ModBlocks.PINK_GARNET_NETHER_ORE)
                 .add(ModBlocks.PINK_GARNET_ORE)
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
+
+                .add(ModBlocks.ALEXANDRITE_BLOCK)
+                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK)
+                .add(ModBlocks.ALEXANDRITE_END_ORE)
+                .add(ModBlocks.ALEXANDRITE_NETHER_ORE)
+                .add(ModBlocks.ALEXANDRITE_ORE)
+                .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE)
+
+                .add(ModBlocks.BISMUTH_BLOCK)
+                .add(ModBlocks.RAW_BISMUTH_BLOCK)
+                .add(ModBlocks.BISMUTH_END_ORE)
+                .add(ModBlocks.BISMUTH_NETHER_ORE)
+                .add(ModBlocks.BISMUTH_ORE)
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE)
+
+                .add(ModBlocks.GILDED_GLASS)
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_LAMP)
                 .add(ModBlocks.URANIUM_STAIRS)
@@ -46,6 +61,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
                 .add(ModBlocks.PINK_GARNET_END_ORE)
                 .add(ModBlocks.PINK_GARNET_NETHER_ORE)
+
+                .add(ModBlocks.ALEXANDRITE_BLOCK)
+                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK)
+                .add(ModBlocks.ALEXANDRITE_END_ORE)
+                .add(ModBlocks.ALEXANDRITE_NETHER_ORE)
+                .add(ModBlocks.ALEXANDRITE_ORE)
+                .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE)
+
+                .add(ModBlocks.BISMUTH_BLOCK)
+                .add(ModBlocks.RAW_BISMUTH_BLOCK)
+                .add(ModBlocks.BISMUTH_END_ORE)
+                .add(ModBlocks.BISMUTH_NETHER_ORE)
+                .add(ModBlocks.BISMUTH_ORE)
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE)
+
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_LAMP)
                 .add(ModBlocks.URANIUM_STAIRS)
@@ -65,6 +95,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
                 .add(ModBlocks.PINK_GARNET_END_ORE)
                 .add(ModBlocks.PINK_GARNET_NETHER_ORE)
+
+                .add(ModBlocks.ALEXANDRITE_BLOCK)
+                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK)
+                .add(ModBlocks.ALEXANDRITE_END_ORE)
+                .add(ModBlocks.ALEXANDRITE_NETHER_ORE)
+                .add(ModBlocks.ALEXANDRITE_ORE)
+                .add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE)
+
+                .add(ModBlocks.BISMUTH_BLOCK)
+                .add(ModBlocks.RAW_BISMUTH_BLOCK)
+                .add(ModBlocks.BISMUTH_END_ORE)
+                .add(ModBlocks.BISMUTH_NETHER_ORE)
+                .add(ModBlocks.BISMUTH_ORE)
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE)
+
                 .add(ModBlocks.URANIUM_BLOCK)
                 .add(ModBlocks.URANIUM_LAMP)
                 .add(ModBlocks.URANIUM_STAIRS)

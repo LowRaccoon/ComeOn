@@ -1,6 +1,14 @@
 {
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorialmod.alexandrite": "Pink Garnet",
+  "item.tutorialmod.raw_alexandrite": "Raw Pink Garnet",
+  "item.tutorialmod.bismuth": "Bismuth",
+  "item.tutorialmod.raw_bismuth": "Raw Bismuth",
+
+
+
+
   "item.tutorialmod.banana": "Banana",
   "item.tutorialmod.wine": "Wine",
   "item.tutorialmod.beer_pint": "Beer Pint",
@@ -89,6 +97,23 @@
   "block.tutorialmod.pink_garnet_nether_ore": "Pink Garnet Nether Ore",
   "block.tutorialmod.pink_garnet_end_ore": "Pink Garnet End Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+  "block.tutorialmod.alexandrite_block": "Alexandrite Block",
+  "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Block",
+  "block.tutorialmod.alexandrite_ore": "Alexandrite Ore",
+  "block.tutorialmod.alexandrite_nether_ore": "Alexandrite Nether Ore",
+  "block.tutorialmod.alexandrite_end_ore": "Alexandrite End Ore",
+  "block.tutorialmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+
+  "block.tutorialmod.bismuth_block": "Bismuth Block",
+  "block.tutorialmod.raw_bismuth_block": "Raw Bismuth Block",
+  "block.tutorialmod.bismuth_ore": "Bismuth Ore",
+  "block.tutorialmod.bismuth_nether_ore": "Bismuth Nether Ore",
+  "block.tutorialmod.bismuth_end_ore": "Bismuth End Ore",
+  "block.tutorialmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+
+  "block.tutorialmod.uranium_block": "Uranium Block",
+
   "block.tutorialmod.crate": "Crate",
   "block.tutorialmod.gilded_glass": "Gilded Glass",
   "block.tutorialmod.transmutator_block": "Transmutator Block",
@@ -96,7 +121,7 @@
   "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
   "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
 
-  "block.tutorialmod.uranium_block": "Uranium Block",
+
   "block.tutorialmod.uranium_stairs": "Uranium Stairs",
   "block.tutorialmod.uranium_slab": "Uranium Slab",
   "block.tutorialmod.uranium_button": "Uranium Button",

@@ -17,8 +17,15 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.BEER_PINT))
                     .displayName(Text.translatable("itemgroup.tutorialmod.tutorial_mod"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.RAW_PINK_GARNET);
+
                         entries.add(ModItems.PINK_GARNET);
+                        entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.ALEXANDRITE);
+                        entries.add(ModItems.RAW_ALEXANDRITE);
+                        entries.add(ModItems.BISMUTH);
+                        entries.add(ModItems.RAW_BISMUTH);
+                        entries.add(ModItems.URANIUM_INGOT);
+
                         entries.add(ModItems.BANANA);
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.DORITOS);
@@ -29,7 +36,6 @@ public class ModItemGroups {
                         entries.add(ModItems.GLASS_SHARD);
                         entries.add(ModItems.GOLD_TRANSMUTER);
                         entries.add(ModItems.STAR_REMAINS);
-                        entries.add(ModItems.URANIUM_INGOT);
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.BUTTON);
                         entries.add(ModItems.DOOM_REMOTE);
@@ -80,10 +86,30 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_NETHER_ORE);
+                        entries.add(ModBlocks.PINK_GARNET_END_ORE);
+
+                        entries.add(ModBlocks.ALEXANDRITE_BLOCK);
+                        entries.add(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+                        entries.add(ModBlocks.ALEXANDRITE_ORE);
+                        entries.add(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.ALEXANDRITE_NETHER_ORE);
+                        entries.add(ModBlocks.ALEXANDRITE_END_ORE);
+
+                        entries.add(ModBlocks.BISMUTH_BLOCK);
+                        entries.add(ModBlocks.RAW_BISMUTH_BLOCK);
+                        entries.add(ModBlocks.BISMUTH_ORE);
+                        entries.add(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.BISMUTH_NETHER_ORE);
+                        entries.add(ModBlocks.BISMUTH_END_ORE);
+
+
+                        entries.add(ModBlocks.URANIUM_BLOCK);
+
+
                         entries.add(ModBlocks.CRATE);
                         entries.add(ModBlocks.GILDED_GLASS);
                         entries.add(ModBlocks.TRANSMUTATOR_BLOCK);
-                        entries.add(ModBlocks.URANIUM_BLOCK);
                         entries.add(ModBlocks.URANIUM_LAMP);
                         entries.add(ModBlocks.URANIUM_STAIRS);
                         entries.add(ModBlocks.URANIUM_SLAB);
@@ -95,8 +121,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.URANIUM_DOOR);
                         entries.add(ModBlocks.URANIUM_TRAPDOOR);
                         entries.add(ModBlocks.GREEN_LAMP);
-                        entries.add(ModBlocks.PINK_GARNET_NETHER_ORE);
-                        entries.add(ModBlocks.PINK_GARNET_END_ORE);
 
                         entries.add(ModBlocks.DRIFTWOOD_LOG);
                         entries.add(ModBlocks.DRIFTWOOD_WOOD);

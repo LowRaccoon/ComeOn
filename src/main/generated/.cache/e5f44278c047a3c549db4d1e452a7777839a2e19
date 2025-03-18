@@ -1,7 +1,7 @@
-// 1.21	2025-03-16T23:15:41.9659111	TutorialMod/Tags for minecraft:block
-6dcc57a694387e1bc62297a7cd6a35af199f8508 data\minecraft\tags\block\mineable\pickaxe.json
-7c3933e8373efbf813915d49af9c333f11f6b8be data\minecraft\tags\block\needs_diamond_tool.json
-7c3933e8373efbf813915d49af9c333f11f6b8be data\minecraft\tags\block\needs_iron_tool.json
+// 1.21	2025-03-18T21:26:47.3518737	TutorialMod/Tags for minecraft:block
+5a7923facdfd46c9d5fa2d6f4e1d15b42dcd9654 data\minecraft\tags\block\mineable\pickaxe.json
+1a4d691ed3955a8ef689bda20d17acbc7422aa8d data\minecraft\tags\block\needs_diamond_tool.json
+1a4d691ed3955a8ef689bda20d17acbc7422aa8d data\minecraft\tags\block\needs_iron_tool.json
 b4839d86897b35d9762a5e117d7d8f326b68a529 data\minecraft\tags\block\fences.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\tutorialmod\tags\block\needs_ancient_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\tutorialmod\tags\block\needs_uranium_tool.json

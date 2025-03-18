@@ -19,27 +19,57 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                    .instrument(NoteBlockInstrument.BELL)));
-
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block ALEXANDRITE_BLOCK = registerBlock("alexandrite_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block BISMUTH_BLOCK = registerBlock("bismuth_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block RAW_BISMUTH_BLOCK = registerBlock("raw_bismuth_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.DEEPSLATE)));
+                    .strength(1f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block PINK_GARNET_END_ORE = registerBlock("pink_garnet_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block PINK_GARNET_NETHER_ORE = registerBlock("pink_garnet_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+
+    public static final Block ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block ALEXANDRITE_END_ORE = registerBlock("alexandrite_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block ALEXANDRITE_NETHER_ORE = registerBlock("alexandrite_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+
+    public static final Block BISMUTH_ORE = registerBlock("bismuth_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BISMUTH_END_ORE = registerBlock("bismuth_end_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(7f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block BISMUTH_NETHER_ORE = registerBlock("bismuth_nether_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 5),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+
+
+
+
     public static final Block CRATE = registerBlock("crate",
             new Block(AbstractBlock.Settings.create()
                     .strength(2f)
@@ -137,13 +167,6 @@ public class ModBlocks {
     public static final Block HONEY_BERRY_BUSH = registerBlockWithoutBlockItem("honey_berry_bush",
             new HoneyBerryBushBlock(AbstractBlock.Settings
                     .copy(Blocks.SWEET_BERRY_BUSH)));
-
-    public static final Block PINK_GARNET_END_ORE = registerBlock("pink_garnet_end_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
-                    AbstractBlock.Settings.create().strength(7f).requiresTool()));
-    public static final Block PINK_GARNET_NETHER_ORE = registerBlock("pink_garnet_nether_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(1, 5),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
     public static final Block DRIFTWOOD_LOG = registerBlock("driftwood_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));

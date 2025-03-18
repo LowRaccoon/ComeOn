@@ -42,6 +42,29 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PINK_GARNET_BLOCK);
         addDrop(ModBlocks.RAW_PINK_GARNET_BLOCK);
+        addDrop(ModBlocks.ALEXANDRITE_BLOCK);
+        addDrop(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+        addDrop(ModBlocks.BISMUTH_BLOCK);
+        addDrop(ModBlocks.RAW_BISMUTH_BLOCK);
+
+        addDrop(ModBlocks.PINK_GARNET_ORE, oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
+        addDrop(ModBlocks.PINK_GARNET_NETHER_ORE, oreDrops(ModBlocks.PINK_GARNET_NETHER_ORE, ModItems.RAW_PINK_GARNET));
+        addDrop(ModBlocks.PINK_GARNET_END_ORE, oreDrops(ModBlocks.PINK_GARNET_END_ORE, ModItems.RAW_PINK_GARNET));
+        addDrop(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, ModItems.RAW_PINK_GARNET, 3, 7));
+
+        addDrop(ModBlocks.ALEXANDRITE_ORE, oreDrops(ModBlocks.ALEXANDRITE_ORE, ModItems.RAW_ALEXANDRITE));
+        addDrop(ModBlocks.ALEXANDRITE_NETHER_ORE, oreDrops(ModBlocks.ALEXANDRITE_NETHER_ORE, ModItems.RAW_ALEXANDRITE));
+        addDrop(ModBlocks.ALEXANDRITE_END_ORE, oreDrops(ModBlocks.ALEXANDRITE_END_ORE, ModItems.RAW_ALEXANDRITE));
+        addDrop(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE, ModItems.RAW_ALEXANDRITE, 3, 7));
+
+        addDrop(ModBlocks.BISMUTH_ORE, oreDrops(ModBlocks.BISMUTH_ORE, ModItems.RAW_BISMUTH));
+        addDrop(ModBlocks.BISMUTH_NETHER_ORE, oreDrops(ModBlocks.BISMUTH_NETHER_ORE, ModItems.RAW_BISMUTH));
+        addDrop(ModBlocks.BISMUTH_END_ORE, oreDrops(ModBlocks.BISMUTH_END_ORE, ModItems.RAW_BISMUTH));
+        addDrop(ModBlocks.BISMUTH_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.BISMUTH_DEEPSLATE_ORE, ModItems.RAW_BISMUTH, 3, 7));
+
+
+
+
         addDrop(ModBlocks.TRANSMUTATOR_BLOCK);
         addDrop(ModBlocks.CRATE);
 
@@ -57,10 +80,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.URANIUM_DOOR, doorDrops(ModBlocks.URANIUM_DOOR));
         addDrop(ModBlocks.URANIUM_TRAPDOOR);
 
-        addDrop(ModBlocks.PINK_GARNET_ORE, oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
-        addDrop(ModBlocks.PINK_GARNET_NETHER_ORE, oreDrops(ModBlocks.PINK_GARNET_NETHER_ORE, ModItems.RAW_PINK_GARNET));
-        addDrop(ModBlocks.PINK_GARNET_END_ORE, oreDrops(ModBlocks.PINK_GARNET_END_ORE, ModItems.RAW_PINK_GARNET));
-        addDrop(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.PINK_GARNET_DEEPSLATE_ORE, ModItems.RAW_PINK_GARNET, 3, 7));
+
 
         BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.CAULIFLOWER_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(CaulifowerCropBlock.AGE, CaulifowerCropBlock.MAX_AGE));
