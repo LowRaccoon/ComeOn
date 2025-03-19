@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "tutorialmod:alexandrite"
+    }
+  },
+  "pattern": [
+    "R",
+    "Q",
+    "Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:alexandrite_shovel"
+  }
+}

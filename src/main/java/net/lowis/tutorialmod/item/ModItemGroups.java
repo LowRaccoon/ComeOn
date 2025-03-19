@@ -59,6 +59,34 @@ public class ModItemGroups {
                         entries.add(ModItems.URANIUM_HOE);
                         entries.add(ModItems.URANIUM_HAMMER);
 
+                        entries.add(ModItems.PINK_GARNET_SWORD);
+                        entries.add(ModItems.PINK_GARNET_PICKAXE);
+                        entries.add(ModItems.PINK_GARNET_SHOVEL);
+                        entries.add(ModItems.PINK_GARNET_AXE);
+                        entries.add(ModItems.PINK_GARNET_HOE);
+                        entries.add(ModItems.PINK_GARNET_HAMMER);
+
+                        entries.add(ModItems.ALEXANDRITE_SWORD);
+                        entries.add(ModItems.ALEXANDRITE_PICKAXE);
+                        entries.add(ModItems.ALEXANDRITE_SHOVEL);
+                        entries.add(ModItems.ALEXANDRITE_AXE);
+                        entries.add(ModItems.ALEXANDRITE_HOE);
+                        entries.add(ModItems.ALEXANDRITE_HAMMER);
+
+                        entries.add(ModItems.BISMUTH_SWORD);
+                        entries.add(ModItems.BISMUTH_PICKAXE);
+                        entries.add(ModItems.BISMUTH_SHOVEL);
+                        entries.add(ModItems.BISMUTH_AXE);
+                        entries.add(ModItems.BISMUTH_HOE);
+                        entries.add(ModItems.BISMUTH_HAMMER);
+
+                        entries.add(ModItems.ANCIENT_SWORD);
+                        entries.add(ModItems.ANCIENT_PICKAXE);
+                        entries.add(ModItems.ANCIENT_AXE);
+                        entries.add(ModItems.ANCIENT_SHOVEL);
+                        entries.add(ModItems.ANCIENT_HOE);
+                        //entries.add(ModItems.ANCIENT_SCYTHE);
+
                         entries.add(ModItems.PINK_GARNET_HELMET);
                         entries.add(ModItems.PINK_GARNET_CHESTPLATE);
                         entries.add(ModItems.PINK_GARNET_LEGGINGS);
@@ -75,13 +103,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TREE_STAFF);
                         entries.add(ModItems.GIANT_SEED);
 
-                        entries.add(ModItems.ANCIENT_GEM);
-                        entries.add(ModItems.ANCIENT_SWORD);
-                        entries.add(ModItems.ANCIENT_PICKAXE);
-                        entries.add(ModItems.ANCIENT_AXE);
-                        entries.add(ModItems.ANCIENT_SHOVEL);
-                        entries.add(ModItems.ANCIENT_HOE);
-                        //entries.add(ModItems.ANCIENT_SCYTHE);
+
                     }).build());
 
     public static final ItemGroup TUTORIAL_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(TutorialMod.MOD_ID, "tutorial_mod_blocks"),

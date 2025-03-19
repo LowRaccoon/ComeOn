@@ -1,5 +1,9 @@
 {
   "values": [
-    "tutorialmod:uranium_shovel"
+    "tutorialmod:uranium_shovel",
+    "tutorialmod:ancient_shovel",
+    "tutorialmod:alexandrite_shovel",
+    "tutorialmod:pink_garnet_shovel",
+    "tutorialmod:bismuth_shovel"
   ]
 }

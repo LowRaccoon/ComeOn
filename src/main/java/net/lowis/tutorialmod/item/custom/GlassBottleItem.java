@@ -6,6 +6,7 @@ import net.minecraft.item.ItemUsageContext;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
 
@@ -20,12 +21,12 @@ public class GlassBottleItem extends Item {
 
         World world = context.getWorld();
 
-        context.getPlayer().getStackInHand(context.getHand()).damage(1, context.getPlayer(), context.getPlayer().getSlotForHand(context.getHand()));
-
+        context.getPlayer().getStackInHand(context.getHand()).decrement(1);
 
         world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GLASS_BREAK, SoundCategory.BLOCKS);
+
         context.getPlayer().giveItemStack(ModItems.GLASS_SHARD.getDefaultStack());
-        context.getPlayer().giveItemStack(ModItems.BROKEN_GLASS_BOTTLE.getDefaultStack());
+        //BROKEN GLASS BOTTLE
 
 
         return ActionResult.SUCCESS;

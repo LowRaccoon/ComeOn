@@ -13,7 +13,10 @@ import java.util.function.Supplier;
 public enum ModToolMaterials implements ToolMaterial {
 
     URANIUM(ModTags.Blocks.INCORRECT_FOR_URANIUM_TOOL, 1300, 6.0F, 5.0F, 12, () -> Ingredient.ofItems(ModItems.URANIUM_INGOT)),
-    ANCIENT(ModTags.Blocks.INCORRECT_FOR_ANCIENT_TOOL, 2000, 8.0F, 8.0F, 15, () -> Ingredient.ofItems(ModItems.ANCIENT_GEM));         //light blue #19859f    dark blue #197a9f
+    ANCIENT(ModTags.Blocks.INCORRECT_FOR_ANCIENT_TOOL, 2000, 8.0F, 8.0F, 15, () -> Ingredient.ofItems(ModItems.ANCIENT_GEM)),       //light blue #19859f    dark blue #197a9f
+    PINK_GARNET(ModTags.Blocks.INCORRECT_FOR_PINK_GARNET_TOOL, 1300, 6.0F, 5.0F, 12, () -> Ingredient.ofItems(ModItems.PINK_GARNET)),
+    ALEXANDRITE(ModTags.Blocks.INCORRECT_FOR_ALEXANDRITE_TOOL, 1300, 6.0F, 5.0F, 12, () -> Ingredient.ofItems(ModItems.ALEXANDRITE)),
+    BISMUTH(ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL, 1300, 6.0F, 5.0F, 12, () -> Ingredient.ofItems(ModItems.BISMUTH));
 
 
     private final TagKey<Block> inverseTag;

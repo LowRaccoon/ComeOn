@@ -28,16 +28,39 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RAW_PINK_GARNET);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.URANIUM_SWORD);
+                .add(ModItems.URANIUM_SWORD)
+                .add(ModItems.ANCIENT_SWORD)
+                .add(ModItems.ALEXANDRITE_SWORD)
+                .add(ModItems.PINK_GARNET_SWORD)
+                .add(ModItems.BISMUTH_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.URANIUM_PICKAXE)
-                .add(ModItems.URANIUM_HAMMER);
+                .add(ModItems.URANIUM_HAMMER)
+                .add(ModItems.ANCIENT_PICKAXE)
+                .add(ModItems.ALEXANDRITE_PICKAXE)
+                .add(ModItems.ALEXANDRITE_HAMMER)
+                .add(ModItems.PINK_GARNET_PICKAXE)
+                .add(ModItems.PINK_GARNET_HAMMER)
+                .add(ModItems.BISMUTH_PICKAXE)
+                .add(ModItems.BISMUTH_HAMMER);
         getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.URANIUM_AXE);
+                .add(ModItems.URANIUM_AXE)
+                .add(ModItems.ANCIENT_AXE)
+                .add(ModItems.ALEXANDRITE_AXE)
+                .add(ModItems.PINK_GARNET_AXE)
+                .add(ModItems.BISMUTH_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.URANIUM_SHOVEL);
+                .add(ModItems.URANIUM_SHOVEL)
+                .add(ModItems.ANCIENT_SHOVEL)
+                .add(ModItems.ALEXANDRITE_SHOVEL)
+                .add(ModItems.PINK_GARNET_SHOVEL)
+                .add(ModItems.BISMUTH_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.URANIUM_HOE);
+                .add(ModItems.URANIUM_HOE)
+                .add(ModItems.ANCIENT_HOE)
+                .add(ModItems.ALEXANDRITE_HOE)
+                .add(ModItems.PINK_GARNET_HOE)
+                .add(ModItems.BISMUTH_HOE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)     //FOR TRIMMING
                 .add(ModItems.PINK_GARNET_HELMET)

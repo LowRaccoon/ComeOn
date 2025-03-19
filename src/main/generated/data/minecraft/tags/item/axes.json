@@ -1,5 +1,9 @@
 {
   "values": [
-    "tutorialmod:uranium_axe"
+    "tutorialmod:uranium_axe",
+    "tutorialmod:ancient_axe",
+    "tutorialmod:alexandrite_axe",
+    "tutorialmod:pink_garnet_axe",
+    "tutorialmod:bismuth_axe"
   ]
 }

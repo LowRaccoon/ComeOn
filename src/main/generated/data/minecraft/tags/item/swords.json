@@ -1,5 +1,9 @@
 {
   "values": [
-    "tutorialmod:uranium_sword"
+    "tutorialmod:uranium_sword",
+    "tutorialmod:ancient_sword",
+    "tutorialmod:alexandrite_sword",
+    "tutorialmod:pink_garnet_sword",
+    "tutorialmod:bismuth_sword"
   ]
 }

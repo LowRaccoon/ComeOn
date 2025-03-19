@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "tutorialmod:bismuth"
+    }
+  },
+  "pattern": [
+    "RR",
+    " Q",
+    " Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:bismuth_hoe"
+  }
+}

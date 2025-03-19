@@ -1,11 +1,14 @@
-// 1.21	2025-03-18T23:16:44.0942674	TutorialMod/Tags for minecraft:block
+// 1.21	2025-03-19T17:40:05.7811463	TutorialMod/Tags for minecraft:block
 5a7923facdfd46c9d5fa2d6f4e1d15b42dcd9654 data\minecraft\tags\block\mineable\pickaxe.json
 1a4d691ed3955a8ef689bda20d17acbc7422aa8d data\minecraft\tags\block\needs_diamond_tool.json
-1a4d691ed3955a8ef689bda20d17acbc7422aa8d data\minecraft\tags\block\needs_iron_tool.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data\tutorialmod\tags\block\needs_ancient_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\tutorialmod\tags\block\needs_bismuth_tool.json
 b4839d86897b35d9762a5e117d7d8f326b68a529 data\minecraft\tags\block\fences.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\tutorialmod\tags\block\needs_uranium_tool.json
-15ebaba2575b1fe9c8b1343f07002f4196d74813 data\minecraft\tags\block\walls.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\tutorialmod\tags\block\needs_pink_garnet_tool.json
 7686250df3c23e3c0e22bb24be92198b8367aaee data\minecraft\tags\block\fence_gates.json
-02d5dae530352396ad4b3909e88ec2e2a9d14df2 data\minecraft\tags\block\mineable\axe.json
 2aea14bcf6e0112aa2f69d63beab9d27793a3eb3 data\minecraft\tags\block\logs_that_burn.json
+1a4d691ed3955a8ef689bda20d17acbc7422aa8d data\minecraft\tags\block\needs_iron_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\tutorialmod\tags\block\needs_alexandrite_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\tutorialmod\tags\block\needs_ancient_tool.json
+15ebaba2575b1fe9c8b1343f07002f4196d74813 data\minecraft\tags\block\walls.json
+02d5dae530352396ad4b3909e88ec2e2a9d14df2 data\minecraft\tags\block\mineable\axe.json

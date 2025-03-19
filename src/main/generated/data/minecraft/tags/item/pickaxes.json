@@ -1,6 +1,13 @@
 {
   "values": [
     "tutorialmod:uranium_pickaxe",
-    "tutorialmod:uranium_hammer"
+    "tutorialmod:uranium_hammer",
+    "tutorialmod:ancient_pickaxe",
+    "tutorialmod:alexandrite_pickaxe",
+    "tutorialmod:alexandrite_hammer",
+    "tutorialmod:pink_garnet_pickaxe",
+    "tutorialmod:pink_garnet_hammer",
+    "tutorialmod:bismuth_pickaxe",
+    "tutorialmod:bismuth_hammer"
   ]
 }

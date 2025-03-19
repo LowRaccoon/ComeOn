@@ -122,10 +122,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STAR_REMAINS, Models.GENERATED);
         itemModelGenerator.register(ModItems.FROSTFIRE_ICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.AURORA_ASHES, Models.GENERATED);
-
-
-
-
+        
         itemModelGenerator.register(ModItems.ANCIENT_GEM, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.URANIUM_SWORD, Models.HANDHELD);
@@ -134,6 +131,27 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.URANIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.URANIUM_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.URANIUM_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PINK_GARNET_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.ALEXANDRITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALEXANDRITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALEXANDRITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALEXANDRITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALEXANDRITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALEXANDRITE_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.BISMUTH_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BISMUTH_HAMMER, Models.HANDHELD);
 
 
 

@@ -135,6 +135,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_URANIUM_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
 
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PINK_GARNET_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_BISMUTH_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ANCIENT_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 

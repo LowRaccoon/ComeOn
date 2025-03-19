@@ -1,5 +1,9 @@
 {
   "values": [
-    "tutorialmod:uranium_hoe"
+    "tutorialmod:uranium_hoe",
+    "tutorialmod:ancient_hoe",
+    "tutorialmod:alexandrite_hoe",
+    "tutorialmod:pink_garnet_hoe",
+    "tutorialmod:bismuth_hoe"
   ]
 }

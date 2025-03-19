@@ -100,61 +100,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_PICKAXE)
-                .pattern("RRR")
-                .pattern(" Q ")
-                .pattern(" Q ")
-                .input('Q', Items.IRON_INGOT)
-                .input('R', ModItems.URANIUM_INGOT)
-                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_HAMMER)
-                .pattern("RRR")
-                .pattern("RQR")
-                .pattern(" Q ")
-                .input('Q', Items.IRON_INGOT)
-                .input('R', ModItems.URANIUM_INGOT)
-                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.URANIUM_SWORD)
-                .pattern("R")
-                .pattern("R")
-                .pattern("Q")
-                .input('Q', Items.IRON_INGOT)
-                .input('R', ModItems.URANIUM_INGOT)
-                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_AXE)
-                .pattern("RR")
-                .pattern("RQ")
-                .pattern(" Q")
-                .input('Q', Items.IRON_INGOT)
-                .input('R', ModItems.URANIUM_INGOT)
-                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_HOE)
-                .pattern("RR")
-                .pattern(" Q")
-                .pattern(" Q")
-                .input('Q', Items.IRON_INGOT)
-                .input('R', ModItems.URANIUM_INGOT)
-                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_SHOVEL)
-                .pattern("R")
-                .pattern("Q")
-                .pattern("Q")
-                .input('Q', Items.IRON_INGOT)
-                .input('R', ModItems.URANIUM_INGOT)
-                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLASS_BOTTLE)     //da fare un tavolo da lavorazione per il vetro**
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLASS_BOTTLE, 6)     //da fare un tavolo da lavorazione per il vetro**
                 .pattern(" R ")
                 .pattern("R R")
                 .pattern("RRR")
@@ -179,7 +125,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('Q', Items.IRON_INGOT)
                 .criterion(hasItem(ModItems.ANCIENT_GEM), conditionsFromItem(ModItems.ANCIENT_GEM))
                 .offerTo(recipeExporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ANCIENT_PICKAXE)
                 .pattern("RRR")
                 .pattern(" Q ")
@@ -188,7 +133,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.ANCIENT_GEM)
                 .criterion(hasItem(ModItems.ANCIENT_GEM), conditionsFromItem(ModItems.ANCIENT_GEM))
                 .offerTo(recipeExporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ANCIENT_AXE)
                 .pattern("RR")
                 .pattern("RQ")
@@ -197,7 +141,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.ANCIENT_GEM)
                 .criterion(hasItem(ModItems.ANCIENT_GEM), conditionsFromItem(ModItems.ANCIENT_GEM))
                 .offerTo(recipeExporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ANCIENT_HOE)
                 .pattern("RR")
                 .pattern(" Q")
@@ -206,7 +149,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.ANCIENT_GEM)
                 .criterion(hasItem(ModItems.ANCIENT_GEM), conditionsFromItem(ModItems.ANCIENT_GEM))
                 .offerTo(recipeExporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ANCIENT_SHOVEL)
                 .pattern("R")
                 .pattern("Q")
@@ -215,6 +157,205 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.ANCIENT_GEM)
                 .criterion(hasItem(ModItems.ANCIENT_GEM), conditionsFromItem(ModItems.ANCIENT_GEM))
                 .offerTo(recipeExporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.URANIUM_SWORD)
+                .pattern("R")
+                .pattern("R")
+                .pattern("Q")
+                .input('Q', Items.IRON_INGOT)
+                .input('R', ModItems.URANIUM_INGOT)
+                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_PICKAXE)
+                .pattern("RRR")
+                .pattern(" Q ")
+                .pattern(" Q ")
+                .input('Q', Items.IRON_INGOT)
+                .input('R', ModItems.URANIUM_INGOT)
+                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_AXE)
+                .pattern("RR")
+                .pattern("RQ")
+                .pattern(" Q")
+                .input('Q', Items.IRON_INGOT)
+                .input('R', ModItems.URANIUM_INGOT)
+                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_SHOVEL)
+                .pattern("R")
+                .pattern("Q")
+                .pattern("Q")
+                .input('Q', Items.IRON_INGOT)
+                .input('R', ModItems.URANIUM_INGOT)
+                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_HOE)
+                .pattern("RR")
+                .pattern(" Q")
+                .pattern(" Q")
+                .input('Q', Items.IRON_INGOT)
+                .input('R', ModItems.URANIUM_INGOT)
+                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.URANIUM_HAMMER)
+                .pattern("RRR")
+                .pattern("RQR")
+                .pattern(" Q ")
+                .input('Q', Items.IRON_INGOT)
+                .input('R', ModItems.URANIUM_INGOT)
+                .criterion(hasItem(ModItems.URANIUM_INGOT), conditionsFromItem(ModItems.URANIUM_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PINK_GARNET_SWORD)
+                .pattern("R")
+                .pattern("R")
+                .pattern("Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_PICKAXE)
+                .pattern("RRR")
+                .pattern(" Q ")
+                .pattern(" Q ")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_AXE)
+                .pattern("RR")
+                .pattern("RQ")
+                .pattern(" Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_SHOVEL)
+                .pattern("R")
+                .pattern("Q")
+                .pattern("Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_HOE)
+                .pattern("RR")
+                .pattern(" Q")
+                .pattern(" Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PINK_GARNET_HAMMER)
+                .pattern("RRR")
+                .pattern("RQR")
+                .pattern(" Q ")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.PINK_GARNET)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ALEXANDRITE_SWORD)
+                .pattern("R")
+                .pattern("R")
+                .pattern("Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.ALEXANDRITE)
+                .criterion(hasItem(ModItems.ALEXANDRITE), conditionsFromItem(ModItems.ALEXANDRITE))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ALEXANDRITE_PICKAXE)
+                .pattern("RRR")
+                .pattern(" Q ")
+                .pattern(" Q ")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.ALEXANDRITE)
+                .criterion(hasItem(ModItems.ALEXANDRITE), conditionsFromItem(ModItems.ALEXANDRITE))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ALEXANDRITE_AXE)
+                .pattern("RR")
+                .pattern("RQ")
+                .pattern(" Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.ALEXANDRITE)
+                .criterion(hasItem(ModItems.ALEXANDRITE), conditionsFromItem(ModItems.ALEXANDRITE))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ALEXANDRITE_SHOVEL)
+                .pattern("R")
+                .pattern("Q")
+                .pattern("Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.ALEXANDRITE)
+                .criterion(hasItem(ModItems.ALEXANDRITE), conditionsFromItem(ModItems.ALEXANDRITE))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ALEXANDRITE_HOE)
+                .pattern("RR")
+                .pattern(" Q")
+                .pattern(" Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.ALEXANDRITE)
+                .criterion(hasItem(ModItems.ALEXANDRITE), conditionsFromItem(ModItems.ALEXANDRITE))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ALEXANDRITE_HAMMER)
+                .pattern("RRR")
+                .pattern("RQR")
+                .pattern(" Q ")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.ALEXANDRITE)
+                .criterion(hasItem(ModItems.ALEXANDRITE), conditionsFromItem(ModItems.ALEXANDRITE))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BISMUTH_SWORD)
+                .pattern("R")
+                .pattern("R")
+                .pattern("Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.BISMUTH)
+                .criterion(hasItem(ModItems.BISMUTH), conditionsFromItem(ModItems.BISMUTH))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BISMUTH_PICKAXE)
+                .pattern("RRR")
+                .pattern(" Q ")
+                .pattern(" Q ")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.BISMUTH)
+                .criterion(hasItem(ModItems.BISMUTH), conditionsFromItem(ModItems.BISMUTH))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BISMUTH_AXE)
+                .pattern("RR")
+                .pattern("RQ")
+                .pattern(" Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.BISMUTH)
+                .criterion(hasItem(ModItems.BISMUTH), conditionsFromItem(ModItems.BISMUTH))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BISMUTH_SHOVEL)
+                .pattern("R")
+                .pattern("Q")
+                .pattern("Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.BISMUTH)
+                .criterion(hasItem(ModItems.BISMUTH), conditionsFromItem(ModItems.BISMUTH))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BISMUTH_HOE)
+                .pattern("RR")
+                .pattern(" Q")
+                .pattern(" Q")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.BISMUTH)
+                .criterion(hasItem(ModItems.BISMUTH), conditionsFromItem(ModItems.BISMUTH))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BISMUTH_HAMMER)
+                .pattern("RRR")
+                .pattern("RQR")
+                .pattern(" Q ")
+                .input('Q', Items.STICK)
+                .input('R', ModItems.BISMUTH)
+                .criterion(hasItem(ModItems.BISMUTH), conditionsFromItem(ModItems.BISMUTH))
+                .offerTo(recipeExporter);
+
+
 
     }
 
